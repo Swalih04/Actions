@@ -6,5 +6,21 @@
   },
   "devDependencies": {
     "jest": "^29.0.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swalih04/Actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swalih04/Actions/issues"
+  },
+  "homepage": "https://github.com/Swalih04/Actions#readme",
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }

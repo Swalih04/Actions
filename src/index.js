@@ -1,12 +1,6 @@
-function add(a, b) {
-  return a + b;
-}
+const express = require('express');
+const app = express();
 
-function divide(a, b) {
-  if (b === 0) {
-    return null;
-  }
-  return a / b;
-}
+app.get('/', (req, res) => res.send('Hello SonarCloud'));
 
-module.exports = { add, divide };
+app.listen(3000, () => console.log('running'));
